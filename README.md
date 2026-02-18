@@ -17,12 +17,17 @@ Static, fast portfolio site built from local CV PDFs plus GitHub public reposito
 
 ## Deploy to GitHub Pages (`/devops-portfolio/`)
 
-1) Create a GitHub repository named `devops-portfolio` (public).
+### Using GitHub Desktop
 
-2) Push these files to the repo root (make sure `index.html` is at the top level).
+1) Open GitHub Desktop → **Add** → **Add Existing Repository** → select this folder.
 
-3) In GitHub, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
-   - This repo includes `/.github/workflows/pages.yml`, so every push to `main` deploys automatically.
+2) Click **Publish repository**:
+   - Name: `devops-portfolio`
+   - Keep it **Public**
+   - Push to `main`
+
+3) In GitHub (repo page): **Settings → Pages** → **Build and deployment** → **Source: GitHub Actions**.
+   - This repo includes `.github/workflows/pages.yml`, so every push to `main` deploys automatically.
 
 Your site URL will be:
 `https://<your-username>.github.io/devops-portfolio/`
