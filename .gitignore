@@ -1,0 +1,9 @@
+# Local caches / extracted artifacts
+tools/.cache/
+data/raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+

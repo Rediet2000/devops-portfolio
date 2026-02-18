@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Rediet Solomon | DevOps Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Rediet Solomon — DevOps Engineer & System Engineer (Kubernetes, CI/CD, Linux, Observability)."
+    />
+
+    <link rel="preload" href="assets/styles.css" as="style" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <div class="brand">
+          <div class="brand__mark" aria-hidden="true">RS</div>
+          <div class="brand__text">
+            <div class="brand__name" id="nameTop">Rediet Solomon</div>
+            <div class="brand__title" id="titleTop">DevOps Engineer</div>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span class="theme__dot" aria-hidden="true"></span>
+          <span class="theme__label" id="themeLabel">Dark</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="pill" id="pillLocation">Addis Ababa, Ethiopia</p>
+            <h1 class="hero__title">
+              <span class="muted">Hi, I’m</span>
+              <span id="nameHero">Rediet Solomon</span>.
+            </h1>
+            <p class="hero__subtitle" id="headlineHero">
+              DevOps Engineer focused on Kubernetes, CI/CD automation, Linux, and observability.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn primary" id="btnEmail" href="#">Email</a>
+              <a class="btn" id="btnGitHub" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn" id="btnLinkedIn" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="btn ghost" href="#projects">View projects</a>
+            </div>
+
+            <div class="meta">
+              <div class="meta__item"><span class="meta__k">Email</span> <span id="emailText">—</span></div>
+              <div class="meta__item"><span class="meta__k">Phone</span> <span id="phoneText">—</span></div>
+              <div class="meta__item"><span class="meta__k">Availability</span> <span id="availabilityText">Open to opportunities</span></div>
+            </div>
+          </div>
+
+          <div class="hero__card" role="region" aria-label="Highlights">
+            <div class="card">
+              <h2 class="card__title">Highlights</h2>
+              <ul class="list" id="highlightsList">
+                <li>99.9% uptime focus</li>
+                <li>GitOps & observability</li>
+                <li>Kubernetes & CI/CD</li>
+              </ul>
+              <div class="divider"></div>
+              <div class="downloads">
+                <h3 class="card__subtitle">Download</h3>
+                <div class="downloads__links" id="cvLinks">
+                  <a class="link" href="cv/Rediet_CV.pdf" download>CV (PDF)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__head">
+            <h2>About</h2>
+            <p class="muted" id="summaryTop">—</p>
+          </div>
+          <div class="grid two">
+            <div class="panel">
+              <h3>What I do</h3>
+              <p id="summaryBody">—</p>
+            </div>
+            <div class="panel">
+              <h3>Core focus</h3>
+              <ul class="chips" id="focusChips"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section__head">
+            <h2>Skills</h2>
+            <p class="muted">Tools and technologies I use in production.</p>
+          </div>
+          <div class="grid three" id="skillsGrid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section__head">
+            <h2>Experience</h2>
+            <p class="muted">Roles, responsibilities, and impact.</p>
+          </div>
+          <div class="timeline" id="experienceTimeline" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section__head">
+            <h2>Projects</h2>
+            <p class="muted">Selected work plus recent GitHub repositories.</p>
+          </div>
+
+          <div class="grid two">
+            <div class="panel">
+              <div class="panel__head">
+                <h3>Selected projects</h3>
+              </div>
+              <div class="stack" id="selectedProjects" aria-live="polite"></div>
+            </div>
+
+            <div class="panel">
+              <div class="panel__head">
+                <h3>Recent GitHub</h3>
+                <p class="muted small" id="githubHint">Loading…</p>
+              </div>
+              <div class="stack" id="githubProjects" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section__head">
+            <h2>Education & Certifications</h2>
+            <p class="muted">Formal education, training, and badges.</p>
+          </div>
+          <div class="grid two">
+            <div class="panel">
+              <h3>Education</h3>
+              <div class="stack" id="educationList" aria-live="polite"></div>
+            </div>
+            <div class="panel">
+              <h3>Certifications</h3>
+              <ul class="list" id="certList" aria-live="polite"></ul>
+              <div class="divider"></div>
+              <h3>Languages</h3>
+              <ul class="list" id="langList" aria-live="polite"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section__head">
+            <h2>Contact</h2>
+            <p class="muted">Want to collaborate or hire me? Let’s talk.</p>
+          </div>
+          <div class="grid two">
+            <div class="panel">
+              <h3>Message</h3>
+              <form class="form" id="contactForm">
+                <label>
+                  <span>Your name</span>
+                  <input name="name" autocomplete="name" required />
+                </label>
+                <label>
+                  <span>Your email</span>
+                  <input name="email" type="email" autocomplete="email" required />
+                </label>
+                <label>
+                  <span>Message</span>
+                  <textarea name="message" rows="5" required></textarea>
+                </label>
+                <button class="btn primary" type="submit">Open email client</button>
+                <p class="muted small">
+                  This form uses <code>mailto:</code> (no backend).
+                </p>
+              </form>
+            </div>
+            <div class="panel">
+              <h3>Links</h3>
+              <div class="links">
+                <a class="link" id="contactEmail" href="#">Email</a>
+                <a class="link" id="contactGitHub" href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="link" id="contactLinkedIn" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+              <div class="divider"></div>
+              <p class="muted small" id="footerMeta">—</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span id="copyright">©</span>
+        <span class="muted">Built from CV data + GitHub.</span>
+      </div>
+    </footer>
+
+    <script src="data/cv.js" defer></script>
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

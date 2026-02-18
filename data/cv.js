@@ -1,0 +1,118 @@
+﻿// Auto-generated. Edit data\\cv.json and re-run tools/build-cv-js.ps1
+window.CV_DATA = {
+  "name": "Rediet Solomon",
+  "title": "DevOps Engineer / System Engineer",
+  "headline": "DevOps Engineer with 4+ years of experience in Kubernetes, CI/CD automation, Linux system administration, and observability.",
+  "location": "Addis Ababa, Ethiopia",
+  "email": "redisolomon2@gmail.com",
+  "phone": "+251 904 117 514",
+  "links": {
+    "github": "https://github.com/Rediet2000",
+    "linkedin": "https://www.linkedin.com/in/rediet-solomon2/"
+  },
+  "summary": "DevOps Engineer with 4+ years of experience optimizing software delivery pipelines, infrastructure automation, and containerization. Specialized in Linux system administration, Kubernetes orchestration, CI/CD automation, cloud migration, and infrastructure security. Experienced with cloud platforms (AWS, Azure, GCP). Designed scalable, highly available systems and implemented GitOps workflows and observability solutions using Prometheus and the ELK stack.",
+  "highlights": [
+    "Kubernetes cluster design & operations",
+    "CI/CD automation (Jenkins, GitLab CI/CD)",
+    "Cloud platforms (AWS, Azure, GCP)",
+    "Observability (Prometheus, Grafana, ELK)",
+    "Linux administration (RHEL/CentOS/Ubuntu)"
+  ],
+  "focus": ["Kubernetes", "CI/CD", "Cloud", "Linux", "GitOps", "Observability", "Security"],
+  "downloads": [
+    { "label": "DevOps CV (PDF)", "href": "cv/Rediet_CV.pdf" }
+  ],
+  "skills": {
+    "Cloud Platforms": ["AWS", "Azure", "GCP"],
+    "Containerization": ["Kubernetes", "Docker"],
+    "CI/CD & Automation": ["Jenkins", "GitLab CI/CD", "Ansible", "YAML", "Shell scripting"],
+    "Version Control & GitOps": ["Git", "GitHub", "GitLab", "Argo CD"],
+    "Linux": ["CentOS", "RHEL", "Oracle Linux", "Ubuntu Server"],
+    "Monitoring & Logging": ["Zabbix", "ELK Stack", "Prometheus", "Grafana"],
+    "Web / Proxy / LB": ["Nginx", "Apache", "HAProxy", "Traefik"],
+    "Databases": ["MySQL", "PostgreSQL", "Oracle"],
+    "Virtualization": ["Proxmox", "OLVM", "VirtualBox", "Hyper-V"],
+    "App Servers": ["WildFly", "Tomcat", "WebLogic Server"]
+  },
+  "experience": [
+    {
+      "role": "DevOps Engineer Head",
+      "company": "Hagbes PLC",
+      "location": "Addis Ababa, Ethiopia",
+      "dates": "Jan 2024 â€“ Present",
+      "bullets": [
+        "Designed and managed full DevOps environments; deployed Kubernetes clusters.",
+        "Built automated CI/CD pipelines using Jenkins and GitLab.",
+        "Configured Traefik as an ingress controller and load balancer.",
+        "Implemented monitoring solutions (Prometheus, Grafana) for observability.",
+        "Installed and managed database servers and corporate email applications.",
+        "Configured secure network environments using OPNsense firewalls."
+      ]
+    },
+    {
+      "role": "DevOps Engineer",
+      "company": "Atlas Computer Technology",
+      "location": "Addis Ababa, Ethiopia",
+      "dates": "Jun 2022 â€“ Jan 2024",
+      "bullets": [
+        "Containerized applications using Docker and Kubernetes for better scalability.",
+        "Managed web servers (Nginx, Apache) and load balancers (HAProxy).",
+        "Integrated ELK stack for centralized logging, alerting, and visualization."
+      ]
+    },
+    {
+      "role": "Junior System Engineer",
+      "company": "Atlas Computer Technology",
+      "location": "Addis Ababa, Ethiopia",
+      "dates": "Nov 2021 â€“ Jun 2022",
+      "bullets": [
+        "Administered Linux-based server infrastructure ensuring high availability.",
+        "Deployed Zabbix and Grafana for server and application monitoring.",
+        "Managed firewall configurations using pfSense and conducted security audits."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Hagbes ERP",
+      "when": "2024 â€“ Present",
+      "description": "CI/CD automation and Kubernetes platform work for ERP services.",
+      "tags": ["Jenkins", "Kubernetes", "Security", "Microservices"]
+    },
+    {
+      "name": "USSD & Mobile Banking Platforms",
+      "when": "Atlas Computer Technology (client delivery)",
+      "description": "Delivered infrastructure and DevOps practices for banking platforms, including HA, SSO, monitoring, and performance tuning.",
+      "tags": ["WildFly", "Nginx", "Keycloak", "Zabbix", "Grafana", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "System Infrastructure Engineer (Engagement)",
+      "when": "Atlas Cloud Services (2022 â€“ 2023)",
+      "description": "Implemented HA CI/CD with Jenkins/Gradle, optimized Kubernetes deployments, and automated configuration management using Ansible.",
+      "tags": ["Jenkins", "Gradle", "Kubernetes", "Ansible"]
+    },
+    {
+      "name": "IT Infrastructure Modernization & Migration",
+      "when": "Hagbes PLC",
+      "description": "Modernized legacy apps into containerized environments, standardized network/security, and improved backup and email system stability.",
+      "tags": ["Docker", "Proxmox", "Security", "Backup"]
+    }
+  ],
+  "education": [
+    {
+      "program": "B.Sc. in Computer Science",
+      "school": "Admas University",
+      "location": "Addis Ababa, Ethiopia",
+      "when": "2018 â€“ 2022 (Graduated 2022)"
+    },
+    {
+      "program": "Machine Learning & Data Engineering",
+      "school": "10 Academy",
+      "location": "Ethiopia",
+      "when": "Aug 2024 â€“ Dec 2024"
+    }
+  ],
+  "certifications": ["Programming Fundamentals", "Continuous Deployment Pipeline", "Kubernetes Threat Modeling"],
+  "languages": ["Amharic (native)", "English (proficient)"]
+}
+;
