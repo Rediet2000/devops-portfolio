@@ -23,10 +23,13 @@ function normalizeUrl(url) {
 }
 
 function mailto(to, subject, body) {
+  const address = safeText(to).trim();
+  if (!address) return "#";
   const params = new URLSearchParams();
   if (subject) params.set("subject", subject);
   if (body) params.set("body", body);
-  return `mailto:${encodeURIComponent(to)}?${params.toString()}`;
+  const q = params.toString();
+  return `mailto:${address}${q ? `?${q}` : ""}`;
 }
 
 function renderSkillCard(title, items) {
@@ -214,14 +217,14 @@ function renderCv(cv) {
   const linkedinUrl = normalizeUrl(cv.links?.linkedin || "");
 
   const btnEmail = qs("#btnEmail");
-  if (btnEmail) btnEmail.href = mailto(email, "Hello Rediet", "Hi Rediet,%0D%0A%0D%0A");
+  if (btnEmail) btnEmail.href = mailto(email, "Hello Rediet", "Hi Rediet,\r\n\r\n");
   const btnGitHub = qs("#btnGitHub");
   if (btnGitHub) btnGitHub.href = githubUrl;
   const btnLinkedIn = qs("#btnLinkedIn");
   if (btnLinkedIn) btnLinkedIn.href = linkedinUrl;
 
   const contactEmail = qs("#contactEmail");
-  if (contactEmail) contactEmail.href = mailto(email, "Hello Rediet", "Hi Rediet,%0D%0A%0D%0A");
+  if (contactEmail) contactEmail.href = mailto(email, "Hello Rediet", "Hi Rediet,\r\n\r\n");
   const contactGitHub = qs("#contactGitHub");
   if (contactGitHub) contactGitHub.href = githubUrl;
   const contactLinkedIn = qs("#contactLinkedIn");
@@ -279,7 +282,7 @@ function renderCv(cv) {
       const fromEmail = safeText(fd.get("email"));
       const msg = safeText(fd.get("message"));
       const subject = `Portfolio inquiry from ${fromName || "someone"}`;
-      const body = `From: ${fromName} <${fromEmail}>%0D%0A%0D%0A${encodeURIComponent(msg)}`;
+      const body = `From: ${fromName} <${fromEmail}>\r\n\r\n${msg}`;
       window.location.href = mailto(email, subject, body);
     });
   }
