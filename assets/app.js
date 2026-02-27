@@ -275,15 +275,53 @@ function renderCv(cv) {
 
   const form = qs("#contactForm");
   if (form) {
-    form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
+      const status = qs("#contactStatus");
+      const submitBtn = form.querySelector('button[type="submit"]');
       const fd = new FormData(form);
+      if (safeText(fd.get("_gotcha")).trim()) return;
+
       const fromName = safeText(fd.get("name"));
       const fromEmail = safeText(fd.get("email"));
       const msg = safeText(fd.get("message"));
-      const subject = `Portfolio inquiry from ${fromName || "someone"}`;
-      const body = `From: ${fromName} <${fromEmail}>\r\n\r\n${msg}`;
-      window.location.href = mailto(email, subject, body);
+
+      if (status) status.textContent = "Sending…";
+      if (submitBtn) submitBtn.disabled = true;
+
+      try {
+        const endpoint = safeText(form.getAttribute("action") || "").trim();
+        if (!endpoint) throw new Error("Missing form action");
+
+        const res = await fetch(endpoint, {
+          method: "POST",
+          body: fd,
+          headers: { Accept: "application/json" },
+        });
+
+        if (res.ok) {
+          form.reset();
+          if (status) status.textContent = "Thanks — your message was sent.";
+          return;
+        }
+
+        let detail = "";
+        try {
+          const data = await res.json();
+          if (Array.isArray(data?.errors) && data.errors.length) {
+            detail = data.errors.map((x) => x?.message).filter(Boolean).join(" ");
+          }
+        } catch {}
+
+        throw new Error(detail || "Message failed to send.");
+      } catch {
+        if (status) status.textContent = "Couldn’t send automatically. Opening your email client…";
+        const subject = `Portfolio inquiry from ${fromName || "someone"}`;
+        const body = `From: ${fromName} <${fromEmail}>\r\n\r\n${msg}`;
+        window.location.href = mailto(email, subject, body);
+      } finally {
+        if (submitBtn) submitBtn.disabled = false;
+      }
     });
   }
 

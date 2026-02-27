@@ -185,7 +185,12 @@
           <div class="grid two">
             <div class="panel">
               <h3>Message</h3>
-              <form class="form" id="contactForm">
+              <form
+                class="form"
+                id="contactForm"
+                action="https://formspree.io/f/xpqjbgya"
+                method="POST"
+              >
                 <label>
                   <span>Your name</span>
                   <input name="name" autocomplete="name" required />
@@ -198,10 +203,10 @@
                   <span>Message</span>
                   <textarea name="message" rows="5" required></textarea>
                 </label>
-                <button class="btn primary" type="submit">Open email client</button>
-                <p class="muted small">
-                  This form uses <code>mailto:</code> (no backend).
-                </p>
+                <input type="hidden" name="_subject" value="Portfolio inquiry" />
+                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" />
+                <button class="btn primary" type="submit">Send message</button>
+                <p class="muted small" id="contactStatus" role="status" aria-live="polite"></p>
               </form>
             </div>
             <div class="panel">
