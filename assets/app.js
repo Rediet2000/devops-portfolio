@@ -202,6 +202,7 @@ function renderCv(cv) {
   setText("pillLocation", location);
   setText("emailText", email);
   setText("phoneText", phone);
+  setText("availabilityText", safeText(cv.availability) || "Open to opportunities");
   setText("summaryTop", safeText(cv.summary));
   setText("summaryBody", safeText(cv.summary));
   setText("headlineHero", safeText(cv.headline || cv.summary));
