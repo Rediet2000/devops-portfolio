@@ -13,7 +13,7 @@ Static, fast portfolio site built from local CV PDFs plus GitHub public reposito
 - Edit `data/cv.json`, then regenerate `data/cv.js`:
   - `powershell -ExecutionPolicy Bypass -File tools/build-cv-js.ps1`
 - Optional: extract PDF text again into `data/raw/`:
-  - `powershell -ExecutionPolicy Bypass -File tools/pdf-extract.ps1 -InputPdf cv\CV2026.pdf -OutFile data\raw\CV2026.txt`
+  - `powershell -ExecutionPolicy Bypass -File tools/pdf-extract.ps1 -InputPdf cv\RedietCV_Updated_2026.pdf -OutFile data\raw\RedietCV_Updated_2026.txt`
 
 ## Deploy to GitHub Pages (`/devops-portfolio/`)
 
