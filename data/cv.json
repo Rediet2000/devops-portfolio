@@ -20,7 +20,7 @@
     "Multilingual AI support chatbot integrated with Odoo Helpdesk (Llama 3.1 + NLLB-200)"
   ],
   "focus": ["Kubernetes", "Terraform", "CI/CD", "Observability", "OpenTelemetry", "GPU Inference", "SDN & Networking", "Automation"],
-  "downloads": [{ "label": "CV (PDF)", "href": "cv/RedietCV_Updated_2026.pdf" }],
+  "downloads": [{ "label": "CV (PDF)", "href": "cv/RedietCV_Updated_2026_2.pdf" }],
   "skills": {
     "Cloud & Compute": ["AWS (EC2 g4dn/g6/c6i)", "GCP", "Microsoft Azure", "NVIDIA Jetson AGX Orin"],
     "IaC & Automation": ["Terraform", "Ansible", "Jenkins (Groovy DSL)", "GitLab CI/CD", "Azure DevOps"],
