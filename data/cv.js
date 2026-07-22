@@ -2,23 +2,23 @@
 window.CV_DATA = {
   "name": "Rediet Solomon",
   "title": "DevOps, Cloud & AI Infrastructure Engineer",
-  "headline": "DevOps, Cloud & AI Infrastructure Engineer with hands-on experience designing, deploying, and operating production systems across cloud, on-prem, and edge environments.",
+  "headline": "DevOps and Cloud Infrastructure Engineer with hands-on experience designing, deploying, and managing production systems across cloud, on-premise, and edge environments.",
   "location": "Addis Ababa, Ethiopia",
   "availability": "Open to Remote Roles",
   "email": "redisolomon@gmail.com",
   "phone": "+251 904 117 514",
   "links": {
     "github": "https://github.com/Rediet2000",
-    "linkedin": "https://www.linkedin.com/in/rediet-solomon/",
+    "linkedin": "https://www.linkedin.com/in/rediet-solomon2/",
     "portfolio": "https://rediet2000.github.io/devops-portfolio/"
   },
-  "summary": "DevOps, Cloud & AI Infrastructure Engineer with hands-on experience designing, deploying, and managing production systems across cloud, on-prem, and edge environments. Skilled in CI/CD pipeline engineering, Kubernetes operations, AI-ready platform builds, GPU inference infrastructure, and observability at scale. Proven track record delivering end-to-end automationâ€”from 14-stage Jenkins pipelines with Telegram approval gates to OpenTelemetry-instrumented monitoring stacksâ€”across enterprise ERP, AI/ML inference, and distributed compute projects.",
+  "summary": "DevOps and Cloud Infrastructure Engineer with extensive experience designing, deploying, and managing production systems across cloud, on-premise, and edge environments. Expert in CI/CD pipeline engineering, Kubernetes operations, AI-ready platform development, GPU inference infrastructure, and observability. Demonstrated success delivering end-to-end automation for enterprise ERP, AI/ML, and distributed compute workloads.",
   "highlights": [
-    "14-stage Jenkins CI/CD for Odoo 18 with Telegram approval gates (87% faster deployments)",
-    "Multi-cloud GPU inference (T4/L4/Jetson) with YOLOv8 + TensorRT and real-time telemetry",
-    "Observability stacks with OpenTelemetry, Prometheus/Grafana, SigNoz/ClickHouse, and DCGM GPU metrics",
-    "SDN + SR-MPLS fabric with ONOS, FRRouting (OSPF/BGP), VXLAN, and OVS",
-    "Multilingual AI support chatbot integrated with Odoo Helpdesk (Llama 3.1 + NLLB-200)"
+    "14-stage Jenkins CI/CD pipeline for Odoo 18 with Telegram approval gates and 87% faster deployments",
+    "GPU-based AI inference on NVIDIA T4/L4 and Jetson AGX Orin with YOLOv8, TensorRT, and real-time telemetry",
+    "Observability stacks with OpenTelemetry, Prometheus, Grafana, SigNoz, ClickHouse, and DCGM GPU metrics",
+    "SR-MPLS and SDN fabric design using ONOS, FRRouting, VXLAN, and OVS",
+    "Multilingual AI support chatbot integrated with Odoo Helpdesk using Llama 3.1 and NLLB-200"
   ],
   "focus": ["Kubernetes", "Terraform", "CI/CD", "Observability", "OpenTelemetry", "GPU Inference", "SDN & Networking", "Automation"],
   "downloads": [{ "label": "CV (PDF)", "href": "cv/RedietCV_Updated_2026_2.pdf" }],
@@ -29,7 +29,7 @@ window.CV_DATA = {
     "Observability": ["Prometheus", "Grafana", "SigNoz", "ELK Stack", "OpenTelemetry", "ClickHouse", "DCGM"],
     "Networking & SDN": ["ONOS", "SR-MPLS", "FRRouting (BGP/OSPF)", "VXLAN", "Open vSwitch (OVS)", "WireGuard", "HAProxy", "Traefik"],
     "AI/ML Infrastructure": ["Ollama", "CUDA/TensorRT", "PyTorch", "FastAPI", "NLLB-200", "DRL (DQN)", "LSTM", "YOLOv8"],
-    "Systems & Virtualization": ["Linux (RHEL/Ubuntu/CentOS/Alpine)", "Proxmox", "Hyper-V", "OPNsense", "pfSense"],
+    "Systems & Virtualization": ["Linux (RHEL/Ubuntu/CentOS)", "Proxmox", "Hyper-V", "OPNsense", "pfSense"],
     "Databases": ["PostgreSQL (HA/clustering)", "MySQL", "Oracle", "ClickHouse", "SQLite"],
     "Dev & Scripting": ["Python", "FastAPI", "Bash", "Alpine.js", "REST API design", "Telegram Bot API"]
   },
@@ -40,12 +40,12 @@ window.CV_DATA = {
       "location": "Remote",
       "dates": "Jan 2025 - Present",
       "bullets": [
-        "Deployed GPU-based AI inference services (YOLOv8, TensorRT FP16/FP8) on NVIDIA T4/L4 and Jetson AGX Orin for real-time image processing.",
-        "Built a 5-node multi-cloud mesh (AWS + GCP + NYC edge) for inference and telemetry workloads.",
-        "Designed an SR-MPLS traffic-engineered fabric with FRRouting, OSPF underlay, and VXLAN overlays controlled by an ONOS SDN controller.",
-        "Implemented observability with Prometheus, Grafana, SigNoz, OpenTelemetry, and DCGM GPU telemetry for latency and network KPIs.",
-        "Created systemd persistence for tunnels/bridges and resolved Jetson MPLS limitations via OVS-only forwarding.",
-        "Contributed to a 28-claim utility patent (NTX-001-NP) covering distributed compute orchestration and closed-loop rerouting."
+        "Deployed GPU-based AI inference services (YOLOv8, TensorRT FP16/FP8) on NVIDIA T4, L4, and Jetson AGX Orin for real-time image processing across a 5-node multi-cloud mesh (AWS + GCP + NYC edge).",
+        "Built an SR-MPLS traffic-engineered fabric with FRRouting, OSPF underlay, and VXLAN overlays controlled by an ONOS OpenFlow SDN controller with full topology discovery.",
+        "Designed monitoring pipelines with Prometheus, Grafana, SigNoz, and OpenTelemetry instrumentation for latency, GPU telemetry (DCGM), and network KPIs.",
+        "Implemented edge-to-cloud inference workflows with DQN-based placement logic and LSTM time-series prediction for workload scheduling.",
+        "Created systemd persistence services for VXLAN tunnels and OVS bridges, resolving Jetson kernel MPLS limitations through OVS-only forwarding.",
+        "Contributed to a 28-claim utility patent (NTX-001-NP) covering distributed compute orchestration, closed-loop rerouting, and intent-based API architecture."
       ]
     },
     {
@@ -54,12 +54,12 @@ window.CV_DATA = {
       "location": "Addis Ababa, Ethiopia",
       "dates": "Jan 2024 - Present",
       "bullets": [
-        "Led DevOps and infrastructure operations for a multi-server Odoo 18 ERP stack (Odoo, AI VM, PostgreSQL/HAProxy, SigNoz, Traefik).",
-        "Designed and implemented a 14-stage Jenkins CI/CD pipeline with Telegram approval gates, backups, health checks, and observability annotations.",
-        "Deployed OpenTelemetry Collector shipping structured logs to SigNoz/ClickHouse and built Grafana dashboards for user activity, developer logs, and alerts.",
-        "Built a multilingual AI customer support chatbot (Llama 3.1 + NLLB-200) with FastAPI + Telegram bot + web widget integrated into Odoo Helpdesk.",
-        "Developed custom Odoo modules (RBAC, PDF preview, webhook workflows) to support internal operations and reporting.",
-        "Implemented production networking/services: coturn for WebRTC, mail relay with SPF/DKIM, OPNsense NAT, and Cloudflare DNS."
+        "Led DevOps and infrastructure operations for a multi-server Odoo 18 ERP stack (Odoo, AI VM, PostgreSQL/HAProxy cluster, SigNoz, Traefik) serving Ethiopia's leading construction machinery dealer.",
+        "Designed and implemented a 14-stage Jenkins CI/CD pipeline with Telegram bot approval gates, reducing deployment time by 87%.",
+        "Deployed an OpenTelemetry Collector with OTLP export and batch/retry policies to ship structured logs to SigNoz and developed Grafana dashboards for user activity and alerting.",
+        "Built an AI-powered multilingual customer support chatbot using Ollama (Llama 3.1 8B), NLLB-200 for 12-language translation, a FastAPI backend, a Telegram bot, and an embeddable JavaScript widget integrated with Odoo 18 Helpdesk.",
+        "Developed custom Odoo 18 modules for user manuals, service monitoring, and Telegram user management with RBAC, PDF preview controllers, and webhook architecture.",
+        "Configured coturn TURN server for WebRTC, mailcow SMTP relay with SPF/DKIM, OPNsense NAT, and Cloudflare DNS for enterprise mail delivery."
       ]
     },
     {
@@ -68,10 +68,9 @@ window.CV_DATA = {
       "location": "Addis Ababa, Ethiopia",
       "dates": "Jun 2022 - Jan 2024",
       "bullets": [
-        "Containerized applications with Docker and Kubernetes to improve deployment consistency across production environments.",
-        "Implemented centralized logging and monitoring with Prometheus, Grafana, and ELK Stack to improve operational visibility.",
-        "Collaborated with developers to improve release stability and CI/CD workflows.",
-        "Supported enterprise banking and financial platforms with HA configuration, performance tuning, and incident response."
+        "Containerized applications using Docker and Kubernetes to ensure scalability and deployment consistency.",
+        "Implemented centralized logging and monitoring with Prometheus, Grafana, and the ELK Stack and partnered with development teams to improve release stability and CI/CD workflows.",
+        "Supported enterprise banking and financial system infrastructure through performance optimization, high-availability configurations, and production incident resolution."
       ]
     },
     {
@@ -80,41 +79,41 @@ window.CV_DATA = {
       "location": "Addis Ababa, Ethiopia",
       "dates": "Nov 2021 - Jun 2022",
       "bullets": [
-        "Administered Linux servers and virtualized environments; supported incident response and routine operations.",
-        "Configured firewalls, system hardening, and VPN tunnels to improve reliability and security posture.",
-        "Monitored system health and supported escalation workflows for production issues."
+        "Administered Linux servers and virtualized environments, configured firewalls, system hardening, and VPN tunnels, and monitored system health.",
+        "Supported incident resolution and operational reliability for production environments.",
+        "Contributed to infrastructure stability and security through routine administration and monitoring tasks."
       ]
     }
   ],
   "projects": [
     {
-      "name": "DDEF Multi-Cloud Mesh (SDN + AI Orchestration)",
+      "name": "DDEF Multi-Cloud Mesh",
       "when": "2025 - Present",
-      "description": "End-to-end SDN fabric across AWS, GCP, and Jetson edge: SR-MPLS, ONOS, OVS, BGP/OSPF, VXLAN overlays, plus DRL placement and closed-loop rerouting.",
+      "description": "End-to-end SDN fabric across AWS, GCP, and Jetson edge with SR-MPLS, ONOS, OVS, BGP/OSPF, and a DRL placement engine.",
       "tags": ["SR-MPLS", "ONOS", "FRRouting", "VXLAN", "OVS", "AWS", "GCP", "Jetson"]
     },
     {
-      "name": "AI Inference Platform",
-      "when": "2025 - Present",
-      "description": "GPU-accelerated real-time inference (YOLOv8/TensorRT) with Prometheus/DCGM telemetry and edge-to-cloud workflows.",
-      "tags": ["YOLOv8", "TensorRT", "NVIDIA T4/L4", "DCGM", "Prometheus", "Grafana"]
-    },
-    {
-      "name": "Hagbes AI Support Chatbot",
+      "name": "Hagbes AI Chatbot",
       "when": "2024 - Present",
-      "description": "Multilingual customer support system (Llama 3.1 + NLLB-200) with Telegram bot + embeddable web widget and Odoo Helpdesk integration for auto-ticket creation.",
+      "description": "Multilingual customer support system using Llama 3.1 and NLLB-200 across 12 languages, with Telegram bot, web widget, and Odoo Helpdesk integration.",
       "tags": ["Ollama", "Llama 3.1", "NLLB-200", "FastAPI", "Telegram Bot", "Odoo 18"]
     },
     {
       "name": "Jenkins CI/CD for Odoo 18",
       "when": "2024",
-      "description": "14-stage pipeline with branch gates, backups, blue/green-safe deploy flows, Telegram approvals, and SigNoz observability annotations.",
+      "description": "14-stage pipeline with blue-green deployment, PostgreSQL backup, Telegram approval gates, and SigNoz observability annotations.",
       "tags": ["Jenkins", "Groovy DSL", "PostgreSQL", "Telegram Bot", "SigNoz", "OpenTelemetry"]
+    },
+    {
+      "name": "AI Inference Platform",
+      "when": "2025 - Present",
+      "description": "GPU-accelerated real-time inference with YOLOv8/TensorRT and Prometheus/DCGM telemetry for edge-to-cloud orchestration.",
+      "tags": ["YOLOv8", "TensorRT", "NVIDIA T4/L4", "DCGM", "Prometheus", "Grafana"]
     }
   ],
   "education": [
     {
-      "program": "B.Sc. in Computer Science",
+      "program": "Bachelor of Science in Computer Science",
       "school": "Admas University",
       "location": "Addis Ababa, Ethiopia",
       "when": "2018 - 2022"
