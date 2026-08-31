@@ -5,7 +5,7 @@ window.CV_DATA = {
   "headline": "DevOps and Cloud Infrastructure Engineer with hands-on experience designing, deploying, and managing production systems across cloud, on-premise, and edge environments.",
   "location": "Addis Ababa, Ethiopia",
   "availability": "Open to Remote Roles",
-  "email": "redisolomon@gmail.com",
+  "email": "redisolomon2@gmail.com",
   "phone": "+251 904 117 514",
   "links": {
     "github": "https://github.com/Rediet2000",
@@ -21,7 +21,7 @@ window.CV_DATA = {
     "Multilingual AI support chatbot integrated with Odoo Helpdesk using Llama 3.1 and NLLB-200"
   ],
   "focus": ["Kubernetes", "Terraform", "CI/CD", "Observability", "OpenTelemetry", "GPU Inference", "SDN & Networking", "Automation"],
-  "downloads": [{ "label": "CV (PDF)", "href": "cv/RedietCV_Updated_2026_2.pdf" }],
+  "downloads": [{ "label": "CV (PDF)", "href": "cv/Rediet_Solomon_CV_2026.pdf" }],
   "skills": {
     "Cloud & Compute": ["AWS (EC2 g4dn/g6/c6i)", "GCP", "Microsoft Azure", "NVIDIA Jetson AGX Orin"],
     "IaC & Automation": ["Terraform", "Ansible", "Jenkins (Groovy DSL)", "GitLab CI/CD", "Azure DevOps"],
