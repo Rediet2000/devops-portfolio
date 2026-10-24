@@ -1,7 +1,7 @@
 {
   "name": "Rediet Solomon",
-  "title": "DevOps, Cloud & AI Infrastructure Engineer",
-  "headline": "DevOps and Cloud Infrastructure Engineer with 5+ years architecting, automating, and operating high-availability production systems across cloud, on-premises, and edge environments.",
+  "title": "IT Operations, Security & Platform Governance",
+  "headline": "IT infrastructure and operations professional with 5+ years running mission-critical systems for Ethiopian banks and enterprises, across fintech and banking infrastructure.",
   "location": "Addis Ababa, Ethiopia",
   "availability": "Open to Remote Roles",
   "email": "redisolomon2@gmail.com",
@@ -11,55 +11,57 @@
     "linkedin": "https://www.linkedin.com/in/rediet-solomon2/",
     "portfolio": "https://rediet2000.github.io/devops-portfolio/"
   },
-  "summary": "DevOps and Cloud Infrastructure Engineer with 5+ years architecting, automating, and operating high-availability production systems across cloud (AWS, GCP, Azure), on-premises virtualization (Proxmox/KVM, OLVM, Hyper-V), and edge environments. Specialized in CI/CD pipeline engineering, Kubernetes operations, Infrastructure as Code, and full-stack observability, with recent depth in AI-ready platforms: GPU inference infrastructure, SDN fabrics, and distributed telemetry. Proven record delivering end-to-end automation for enterprise ERP, banking, and AI/ML workloads, and resolving critical production issues across cloud, virtualization, networking, and application layers.",
+  "summary": "IT infrastructure and operations professional with 5+ years running mission-critical systems for Ethiopian banks and enterprises. Supported 24/7 production for Wegagen Bank (USSD/E-Banking), Hijra Bank and Siinqee Bank digital channels, and currently directs the enterprise Odoo 18 ERP infrastructure at Hagbes PLC. Strong in release and change control with approval gates, incident response and root-cause analysis, access control and server hardening, vulnerability management, security monitoring and detection, backup and disaster recovery, network security, and monitoring. Combines hands-on depth across servers, networks, databases and cloud with security governance (policy, risk assessment, threat modelling) and the documentation, reporting and coordination discipline needed for audits, vendors and management.",
   "highlights": [
-    "14-stage Jenkins CI/CD pipeline for Odoo 18 with quality gates, Telegram approvals, and 87% faster deployments",
-    "GPU inference on NVIDIA T4/L4 and Jetson AGX Orin with YOLOv8, TensorRT, and real-time telemetry",
-    "Observability stacks with OpenTelemetry, Prometheus, Grafana, SigNoz, ClickHouse, and DCGM GPU metrics",
-    "SR-MPLS and SDN fabric design using ONOS, FRRouting, VXLAN, and Open vSwitch",
-    "24/7 infrastructure support for mission-critical USSD and digital banking platforms"
+    "24/7 production support for Wegagen Bank USSD/E-Banking, Hijra Bank and Siinqee Bank digital channels",
+    "Controlled release management: 14-stage Jenkins pipeline with approval gates and blue-green go-live, cutting delivery cycles by 87%",
+    "Incident response and root-cause analysis across network, server, container and database layers",
+    "Security operations with Wazuh SIEM, detection rules, threat hunting and MITRE ATT&CK-informed analysis",
+    "High availability and recovery with PostgreSQL Patroni clusters, replication and scheduled backups"
   ],
-  "focus": ["Kubernetes", "Terraform", "CI/CD", "Observability", "OpenTelemetry", "GPU Inference", "SDN & Networking", "Automation"],
-  "downloads": [{ "label": "CV (PDF)", "href": "cv/Rediet_Solomon_CV_2026.pdf" }],
+  "focus": ["IT Operations", "Change & Release Control", "Incident Response", "Security Operations", "Security Governance", "Backup & DR", "Network Security", "Monitoring"],
+  "downloads": [{ "label": "CV (PDF)", "href": "cv/Rediet-Solomon-CV.pdf" }],
   "skills": {
-    "Cloud & Compute": ["AWS (EC2 g4dn/g6/c6i)", "GCP", "Microsoft Azure (AKS)", "Multi-Cloud Architecture", "NVIDIA T4/L4", "Jetson AGX Orin", "High Availability", "Backup & Disaster Recovery"],
-    "Containers & Orchestration": ["Docker", "Docker Compose", "Kubernetes", "AKS", "Helm", "Traefik", "Container Networking", "Cluster Deployment & Administration"],
-    "CI/CD & Infrastructure as Code": ["Jenkins (Groovy DSL)", "GitHub Actions", "GitLab CI/CD", "Azure DevOps", "Terraform", "Ansible", "Git", "Python", "Bash/Shell Scripting", "GitOps"],
-    "Observability & Telemetry": ["Prometheus (custom exporters)", "Grafana", "OpenTelemetry", "SigNoz", "ELK Stack", "ClickHouse", "Zabbix", "DCGM GPU Metrics", "Centralized Logging", "Distributed Tracing"],
-    "Networking & SDN": ["ONOS (OpenFlow)", "SR-MPLS", "FRRouting (BGP/OSPF)", "VXLAN", "Open vSwitch", "OPNsense/pfSense", "VLANs", "NAT", "DNS/DHCP", "WireGuard VPN", "HAProxy", "Nginx", "Cloudflare", "TLS/SSL"],
-    "Databases": ["PostgreSQL (Patroni HA & clustering)", "MySQL/MariaDB", "Oracle", "Redis", "ClickHouse", "Replication", "Backup & Recovery"],
-    "AI/ML Infrastructure": ["YOLOv8", "CUDA/TensorRT", "Ollama (Llama 3.1)", "NLLB-200", "PyTorch", "FastAPI", "DRL (DQN)", "LSTM", "GPU Workload Scheduling"],
-    "Systems & Virtualization": ["Linux (RHEL/Ubuntu/CentOS)", "Proxmox VE", "Oracle VM & OLVM", "Hyper-V", "KVM", "Windows Server", "Active Directory/LDAP", "Server Hardening", "Patch Management"]
+    "IT Operations Management": ["Server & Workstation Lifecycle", "Patch Management & Upgrades", "Licence Tracking", "24/7 Production Support", "SLA-Driven Operations"],
+    "Platform & Application Management": ["Web Portals", "Mobile Backends", "ERP (Odoo 18)", "Digital Banking & USSD Platforms", "Multi-Environment Delivery (Dev, UAT, Staging, Production)"],
+    "Release, Change & Incident Management": ["Approval-Gated Releases", "UAT Sign-off Before Go-Live", "Blue-Green Deployments with Rollback", "Incident Response", "Root-Cause Analysis"],
+    "Integrations": ["API & System Integration", "Secure Third-Party Connectivity", "Payment & Banking Channel Support"],
+    "Network Design & Security": ["VLANs", "Routing", "NAT", "DNS/DHCP", "OPNsense/pfSense", "WireGuard & Site-to-Site VPN", "TLS/SSL", "Reverse Proxies", "Cloudflare"],
+    "Information Security": ["Active Directory/LDAP", "Password & Account Policies", "Encryption in Transit", "Audit Logging", "Server Hardening", "Kubernetes Threat Modelling"],
+    "Application & API Security": ["Web App & REST API Assessment", "AuthN/AuthZ & Access-Control Review (IDOR/BOLA)", "Privilege Escalation", "Secure Code Review", "OWASP Top 10", "OWASP API Security Top 10", "OWASP ASVS", "Vulnerability Validation", "Remediation & Retesting"],
+    "Security Operations & Threat Detection": ["Wazuh SIEM", "Detection Rule Development", "Threat Hunting", "Behavioural Analysis", "MITRE ATT&CK", "Log Analysis", "Incident Triage & Investigation", "Malware Investigation", "Incident Reporting"],
+    "Security Governance & Risk": ["Security Policy Development", "ISO 27001 Controls", "Risk Assessment", "STRIDE Threat Modelling", "Vulnerability Management", "Security Audits", "CVSS Severity Rating"],
+    "Security Tools": ["Burp Suite", "Nmap", "Nuclei", "Metasploit", "Wazuh", "YARA", "MobSF", "Ghidra"],
+    "Backup, DR & Business Continuity": ["PostgreSQL HA (Patroni)", "Replication", "Scheduled Backups", "Restore Procedures", "High-Availability Design"],
+    "Monitoring & Observability": ["Prometheus", "Grafana", "Zabbix", "SigNoz", "OpenTelemetry", "ELK", "Alerting", "Centralized Logging"],
+    "Infrastructure, Automation & DevSecOps": ["Proxmox VE", "KVM", "OLVM/OVM", "Hyper-V", "AWS", "GCP", "Azure", "Docker", "Kubernetes", "Terraform", "Ansible", "Jenkins", "GitHub Actions", "CI/CD Security Integration", "Automated Security Checks", "Redis", "Bash", "Python"],
+    "Governance & Coordination": ["Technical Documentation", "Operational Handoffs", "Vendor & Hosting-Provider Coordination", "Progress Reporting to Management"]
   },
   "experience": [
-    {
-      "role": "Remote AI Infrastructure & SDN Engineer",
-      "company": "MetaPlux / DDEF Engineering",
-      "location": "Remote",
-      "dates": "Jun 2025 - Apr 2026",
-      "bullets": [
-        "Deployed GPU-based AI inference services (YOLOv8, TensorRT FP16/FP8) on NVIDIA T4, L4, and Jetson AGX Orin for real-time image processing across a 5-node hybrid cloud mesh (AWS, GCP, NYC edge).",
-        "Built an SR-MPLS traffic-engineered fabric with FRRouting, an OSPF underlay, and VXLAN overlays controlled by an ONOS OpenFlow SDN controller with full topology discovery.",
-        "Established end-to-end observability using Prometheus custom exporters, SigNoz, OpenTelemetry, and Grafana covering inference latency, DCGM GPU telemetry, and network performance KPIs.",
-        "Implemented edge-to-cloud inference workflows driven by DQN-based placement logic and LSTM time-series prediction for workload scheduling.",
-        "Created systemd persistence services for VXLAN tunnels and OVS bridges, resolving Jetson kernel MPLS limitations through OVS-only forwarding, with engineering documentation for operational handoff.",
-        "Contributed to a 28-claim utility patent (NTX-001-NP) covering distributed compute orchestration, closed-loop rerouting, and intent-based API architecture."
-      ]
-    },
     {
       "role": "DevOps, System & Infrastructure Engineer",
       "company": "Hagbes PLC",
       "location": "Addis Ababa, Ethiopia",
       "dates": "Jan 2024 - Present",
       "bullets": [
-        "Lead DevOps and infrastructure operations for a multi-server Odoo 18 ERP ecosystem (Odoo, AI VM, PostgreSQL/HAProxy cluster, Traefik, SigNoz) serving the leading construction machinery dealer in Ethiopia.",
-        "Designed and implemented a 14-stage Jenkins CI/CD pipeline with automated quality gates, database backup, Telegram approval gates, and blue-green deployments, cutting deployment time by 87%.",
-        "Deployed OpenTelemetry Collectors with OTLP export and batch/retry policies to ship structured logs to SigNoz, and built Grafana dashboards and alerting for user activity and service health.",
-        "Built an AI-powered multilingual customer support chatbot on Ollama (Llama 3.1 8B) with NLLB-200 12-language translation, a FastAPI backend, a Telegram bot, and an embeddable JavaScript widget integrated with Odoo 18 Helpdesk.",
-        "Configured high-availability PostgreSQL with Patroni, administered MySQL/MariaDB instances, and orchestrated traffic delivery with Traefik, Nginx, HAProxy, and Cloudflare.",
-        "Automated resource provisioning across Linux and Proxmox VE hypervisors with Terraform and Bash, and maintained multi-environment container deployments using Docker Compose, Kubernetes, GitHub Actions, and Jenkins.",
-        "Developed custom Odoo 18 modules (user manuals, service monitoring, Telegram user management) with RBAC and webhook architecture, and configured coturn TURN for WebRTC plus mailcow SMTP relay with SPF/DKIM, OPNsense NAT, and Cloudflare DNS.",
-        "Led root-cause analysis for production incidents across network, container, database, and system layers, increasing overall service availability."
+        "Direct the infrastructure for the enterprise Odoo 18 ERP across multiple virtual servers, covering PostgreSQL/HAProxy clusters, Traefik, Nginx, Cloudflare and SigNoz monitoring.",
+        "Introduced controlled release management: a 14-stage Jenkins pipeline with automated quality gates, pre-release database backup, management approval checks and blue-green go-live with rollback, cutting delivery cycles by 87%.",
+        "Run incident management and root-cause analysis for production incidents across network, server, container and database layers, raising service availability.",
+        "Designed high availability and recovery for business data with PostgreSQL Patroni clusters, replication and scheduled backups; administer MySQL/MariaDB instances.",
+        "Built centralized logging and alerting with OpenTelemetry Collectors, Prometheus and Grafana, giving management visibility into system health and incidents.",
+        "Standardized server provisioning, patching and configuration on Linux and Proxmox VE with Terraform and Bash, reducing manual changes and configuration drift.",
+        "Maintain separate Dev, UAT and Production environments with Docker Compose, Kubernetes and GitHub Actions so changes are tested before go-live."
+      ]
+    },
+    {
+      "role": "AI Infrastructure & SDN Engineer",
+      "company": "MetaPlux / DDEF Engineering",
+      "location": "Remote",
+      "dates": "Jun 2025 - Apr 2026",
+      "bullets": [
+        "Delivered a 5-node hybrid network across AWS, GCP and edge sites, standardizing configuration, compute provisioning and secure connectivity (OVS bridges, VXLAN tunnels).",
+        "Established an end-to-end monitoring stack (Prometheus custom exporters, SigNoz, OpenTelemetry, Grafana) tracking network performance, latency and GPU health.",
+        "Produced engineering documentation and runbooks for operational handoffs to client teams."
       ]
     },
     {
@@ -68,9 +70,8 @@
       "location": "Remote",
       "dates": "Jan 2025 - Present",
       "bullets": [
-        "Deploy and manage applications with Docker and Docker Compose across Linux-based production environments.",
-        "Administer containers, images, volumes, networks, and application configuration to keep services running reliably.",
-        "Manage PostgreSQL database backups and maintain infrastructure documentation in line with DevOps best practices."
+        "Deploy and operate client applications on Linux production servers with Docker and Docker Compose.",
+        "Own PostgreSQL backup routines and infrastructure documentation in line with operational best practice."
       ]
     },
     {
@@ -79,10 +80,10 @@
       "location": "Addis Ababa, Ethiopia",
       "dates": "Apr 2022 - Jan 2024",
       "bullets": [
-        "Containerized core enterprise applications with Docker and Kubernetes to guarantee environment parity and scalable deployment.",
-        "Provided 24/7 infrastructure monitoring and deployment support for mission-critical banking services, including Wegagen Bank USSD/E-Banking, Hijra Bank E-Banking, and Siinqee Bank systems.",
-        "Deployed full-stack monitoring and centralized logging with Prometheus, Grafana, Zabbix, SigNoz, OpenTelemetry, and the ELK Stack, and partnered with development teams to improve release stability.",
-        "Administered Linux servers, database systems, and application environments, enforcing security policies, high-availability standards, and rapid production incident resolution."
+        "Provided 24/7 operations, deployment and incident support for regulated financial-sector clients: Wegagen Bank USSD/E-Banking, Hijra Bank E-Banking and Siinqee Bank systems.",
+        "Enforced security policies and high-availability standards on Linux servers, databases and application environments for banking workloads.",
+        "Deployed full-stack monitoring (Prometheus, Grafana, Zabbix, SigNoz, OpenTelemetry, ELK) to detect and resolve incidents before they reached customers.",
+        "Containerized core enterprise applications with Docker and Kubernetes to keep staging, UAT and production consistent."
       ]
     },
     {
@@ -91,43 +92,43 @@
       "location": "Addis Ababa, Ethiopia",
       "dates": "Nov 2021 - Apr 2022",
       "bullets": [
-        "Maintained virtualized environments and Linux servers to hold system stability and performance SLAs.",
-        "Managed pfSense firewalls, configured VLANs and VPN tunnels, and implemented network security rules.",
-        "Set up system monitoring with Zabbix and Grafana to support prompt incident resolution.",
-        "Supported corporate infrastructure including Proxmox, OLVM, Nginx, Apache, WildFly, HAProxy, Zimbra, Mailcow, and Exchange."
+        "Managed pfSense firewalls, VLANs, VPN tunnels and network security rules for corporate and client sites.",
+        "Maintained virtualized environments and Linux servers against performance SLAs.",
+        "Supported corporate infrastructure including Proxmox, OLVM, Nginx, Apache, WildFly, HAProxy, Zimbra, Mailcow and Exchange.",
+        "Set up Zabbix and Grafana monitoring for faster incident resolution."
       ]
     }
   ],
   "projects": [
     {
-      "name": "DDEF Hybrid Multi-Cloud Mesh",
-      "when": "2025 - 2026",
-      "description": "End-to-end SDN fabric across AWS, GCP, and Jetson edge using SR-MPLS, ONOS, FRRouting, VXLAN, and OVS, with a DRL (DQN) placement engine under unified telemetry.",
-      "tags": ["SR-MPLS", "ONOS", "FRRouting", "VXLAN", "OVS", "AWS", "GCP", "Jetson"]
-    },
-    {
-      "name": "AI Inference Platform",
-      "when": "2025 - 2026",
-      "description": "GPU-accelerated real-time inference with YOLOv8/TensorRT on T4, L4, and Jetson, exposed through REST APIs with Prometheus and DCGM telemetry for edge-to-cloud orchestration.",
-      "tags": ["YOLOv8", "TensorRT", "NVIDIA T4/L4", "DCGM", "Prometheus", "Grafana"]
-    },
-    {
-      "name": "Automated Odoo 18 Delivery",
-      "when": "2024",
-      "description": "14-stage Jenkins pipeline featuring database backup, approval checks, SigNoz annotations, and blue-green releases, reducing delivery cycles by 87%.",
-      "tags": ["Jenkins", "Groovy DSL", "PostgreSQL", "Telegram Bot", "SigNoz", "OpenTelemetry"]
-    },
-    {
-      "name": "Hagbes AI Support Chatbot",
-      "when": "2024 - Present",
-      "description": "Multilingual support system on Llama 3.1 and NLLB-200 across 12 languages, with a Telegram bot, embeddable web widget, and Odoo 18 Helpdesk integration.",
-      "tags": ["Ollama", "Llama 3.1", "NLLB-200", "FastAPI", "Telegram Bot", "Odoo 18"]
-    },
-    {
-      "name": "Banking Infrastructure Support",
+      "name": "Digital Banking Operations",
       "when": "2022 - 2024",
-      "description": "Highly available infrastructure, application deployment, monitoring, and live operational support for USSD and digital banking platforms at Wegagen, Hijra, and Siinqee banks.",
-      "tags": ["Kubernetes", "Docker", "Prometheus", "Grafana", "Zabbix", "ELK", "High Availability"]
+      "description": "Kept Wegagen, Hijra and Siinqee USSD and e-banking platforms highly available through monitoring, controlled deployments and live incident support.",
+      "tags": ["USSD", "E-Banking", "Incident Response", "Prometheus", "Zabbix", "ELK", "High Availability"]
+    },
+    {
+      "name": "Controlled Release Pipeline for Odoo 18 ERP",
+      "when": "2024",
+      "description": "14-stage pipeline with backup, approval checks, release tracking and blue-green go-live; 87% shorter delivery cycles with a safe rollback path.",
+      "tags": ["Jenkins", "Approval Gates", "Blue-Green", "PostgreSQL", "Rollback"]
+    },
+    {
+      "name": "High-Availability Data Platform",
+      "when": "2024 - Present",
+      "description": "PostgreSQL Patroni clusters behind HAProxy with replication and scheduled backups to protect business-critical records.",
+      "tags": ["PostgreSQL", "Patroni", "HAProxy", "Replication", "Backup & DR"]
+    },
+    {
+      "name": "Enterprise Containerization",
+      "when": "2022 - Present",
+      "description": "Moved applications to Docker/Kubernetes with Traefik routing, giving identical staging, UAT and production environments for reliable acceptance testing.",
+      "tags": ["Docker", "Kubernetes", "Traefik", "UAT", "Multi-Environment"]
+    },
+    {
+      "name": "Hybrid Multi-Cloud Network (DDEF)",
+      "when": "2025 - 2026",
+      "description": "Secure network and unified monitoring across AWS, GCP and edge sites.",
+      "tags": ["AWS", "GCP", "VXLAN", "OVS", "Prometheus", "SigNoz", "OpenTelemetry"]
     }
   ],
   "education": [
@@ -139,10 +140,10 @@
     }
   ],
   "certifications": [
-    "Programming Fundamentals",
-    "AI Mastery Training Program",
+    "Kubernetes Threat Modelling",
     "Continuous Deployment Pipeline",
-    "Kubernetes Threat Modelling"
+    "AI Mastery Training Program",
+    "Programming Fundamentals"
   ],
-  "languages": ["English (Professional Working Proficiency)", "Amharic (Native)"]
+  "languages": ["Amharic (Native)", "English (Professional Working Proficiency)"]
 }
